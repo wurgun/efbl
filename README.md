@@ -39,6 +39,35 @@ https://wurgun.github.io/efbl/
 
 Bu proje herhangi bir build adimi gerektirmez. `index.html` dosyasi dogrudan tarayicida acilabilir.
 
+## eFBL RAG Asistani
+
+Projede PDF kaynakli bir chatbot altyapisi bulunur. Chatbot, FIATA eFBL rehberinden uretilen `data/efbl-index.json` dosyasini kullanir ve `/api/chat` endpoint'i uzerinden yanit verir.
+
+Kurulum:
+
+```powershell
+npm install
+Copy-Item .env.example .env
+```
+
+`.env` dosyasinda `OPENAI_API_KEY` degerini tanimlayin.
+
+PDF indeksini uretmek icin:
+
+```powershell
+npm run build:index
+```
+
+Gecerli OpenAI API anahtari varsa indeks embedding'lerle uretilir. Anahtar yoksa ya da gecersizse metin parcalari yine yazilir, ancak arama kalitesi semantik embedding aramasina gore daha sinirli olur.
+
+Yerelde serverless API ile denemek icin:
+
+```powershell
+npm start
+```
+
+Not: GitHub Pages yalnizca statik dosya yayinladigi icin `/api/chat` endpoint'ini calistirmaz. Chatbotun calismasi icin Vercel, Netlify Functions veya benzeri serverless destekli bir ortam kullanilmalidir.
+
 ## GitHub Pages Yayini
 
 GitHub Pages ile yayinlamak icin:

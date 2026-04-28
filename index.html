@@ -379,6 +379,36 @@
       </div>
     </footer>
 
+    <aside class="chat-widget" aria-label="eFBL yapay zeka asistani">
+      <button class="chat-launcher" type="button" aria-expanded="false" aria-controls="rag-chat">
+        eFBL Asistanı
+      </button>
+      <section class="chat-panel" id="rag-chat" aria-live="polite">
+        <header class="chat-header">
+          <div>
+            <strong>eFBL Asistanı</strong>
+            <span>FIATA rehberine göre yanıtlar</span>
+          </div>
+          <button class="chat-close" type="button" aria-label="Asistani kapat">×</button>
+        </header>
+        <div class="chat-messages">
+          <article class="chat-message assistant">
+            Merhaba. eFBL rehberine göre sorularınızı yanıtlayabilirim. Yanıtlar bilgilendirme amaçlıdır.
+          </article>
+        </div>
+        <div class="chat-prompts">
+          <button type="button">eFBL numarası ne zaman oluşur?</button>
+          <button type="button">Sigortalı eFBL nedir?</button>
+          <button type="button">PDF kopya orijinal belge yerine geçer mi?</button>
+        </div>
+        <form class="chat-form">
+          <label class="sr-only" for="chat-question">Sorunuzu yazın</label>
+          <textarea id="chat-question" name="question" rows="2" placeholder="eFBL hakkında sorunuzu yazın"></textarea>
+          <button type="submit">Sor</button>
+        </form>
+      </section>
+    </aside>
+
     <script src="script.js"></script>
   </body>
 </html>

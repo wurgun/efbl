@@ -1,0 +1,436 @@
+{
+  "source": {
+    "title": "Practical Guide to the electronic FIATA Multimodal Bill of Lading (eFBL)",
+    "url": "https://fiata.cdn.prismic.io/fiata/acu4XJGXnQHGZIQ0_eFBLguide_final.pdf"
+  },
+  "embeddingModel": "text-embedding-3-small",
+  "generatedAt": "2026-04-28T21:42:52.125Z",
+  "chunks": [
+    {
+      "id": "p1-c1",
+      "page": 1,
+      "title": "FIATA eFBL Practical Guide, page 1",
+      "text": "FIATA International Federation of Freight Forwarders Associations Rue Kléberg 6 | 1201 Geneva | Switzerland 1 T +41 22 715 45 45 | info@fiata.org | www.fiata.org Practical Guide to the electronic FIATA Multimodal Bill of Lading ( eFBL ) A roadmap to digital freight f orwarding and t rusted t rade Contents Practical Guide to the electronic FIATA Multimodal Bill of Lading (eFBL) ................................ .............. 1 Part 1: Understanding the eFBL ................................ ................................ ................................ .............. 3 I. Purpose of the Guide ................................ ................................ ................................ ................. 3 A. About the FIATA Multimodal Transport Bill of Lading ................................ ........................... 3 B. Benefits of using the eFBL ................................ ................................ ................................ ..... 4 IV. Legal framework and trust model ................................ ................................ .............................. 6 A. Legal basis of the eFBL ................................ ................................ ................................ ........... 6 B. How functional equivalence is achieved ................................ ................................ ............... 7 C. Originals vs copies ................................ ................................ ................................ ................. 7 D. The FIATA Digital Identity ................................ ................................ ................................ ...... 8 E. Security, Integrity and Prevention of Fraud ................................ ................................ .......... 8 F. Data governance and responsible data use ................................ ................................ .........."
+    },
+    {
+      "id": "p1-c2",
+      "page": 1,
+      "title": "FIATA eFBL Practical Guide, page 1",
+      "text": "................................ ................................ ................. 7 D. The FIATA Digital Identity ................................ ................................ ................................ ...... 8 E. Security, Integrity and Prevention of Fraud ................................ ................................ .......... 8 F. Data governance and responsible data use ................................ ................................ .......... 9 Part 2: FIATA Association Members – How to unlock the eFBL in your territory ................................ . 10 I. Unlocking access to the eFBL ................................ ................................ ................................ ... 10 II. Role of FIATA Association Members ................................ ................................ ........................ 10 Part 3: Freight forwarding companies – How to use the eFBL ................................ ............................. 12 I. Eligibility to issue the eFBL ................................ ................................ ................................ ....... 12 II. Onboarding and billing process ................................ ................................ ............................... 13 A. Purchasing eFBL credits ................................ ................................ ................................ ....... 13 B. Obtaining a FIATA Digital Identity ................................ ................................ ....................... 13 C. Mandatory liability insurance requirement ................................ ................................ ........ 14 D. Insured eFBL vs Standard eFBL ................................ ................................ ............................ 14 III. How to issue the eFBL ................................ ................................ ................................ .............. 15 A. Methods of issuance ................................ ................................ ................................ ............ 15 B. API verification with FIATA Digital Identity ................................ ................................ ......... 16 C. Amendments ................................"
+    },
+    {
+      "id": "p1-c3",
+      "page": 1,
+      "title": "FIATA eFBL Practical Guide, page 1",
+      "text": "14 III. How to issue the eFBL ................................ ................................ ................................ .............. 15 A. Methods of issuance ................................ ................................ ................................ ............ 15 B. API verification with FIATA Digital Identity ................................ ................................ ......... 16 C. Amendments ................................ ................................ ................................ ....................... 17 D. Transfer of title ................................ ................................ ................................ .................... 17"
+    },
+    {
+      "id": "p2-c1",
+      "page": 2,
+      "title": "FIATA eFBL Practical Guide, page 2",
+      "text": "FIATA International Federation of Freight Forwarders Associations Rue Kléberg 6 | 1201 Geneva | Switzerland 2 T +41 22 715 45 45 | info@fiata.org | www.fiata.org IV. Converting from digital to paper ................................ ................................ ............................. 18 V. Practical user guidance ................................ ................................ ................................ ............ 18 A. Negotiable vs Non - Negotiable eFBL ................................ ................................ .................... 18 B. eFBL numbering and advance filing requirements ................................ .............................. 19 C. Cargo totals: Packages, weight and volume ................................ ................................ ........ 19 D. Freight amount field – *Specific guidance for US shipments* ................................ ............ 20 Part 4: Other supply chain stakeholders – How to verify the eFBL ................................ ...................... 21 I. The eFBL data as the single source of truth ................................ ................................ ............. 21 II. Verifying the eFBL ................................ ................................ ................................ .................... 21 Part 5: Customs and regulatory authorities – How to leverage the eFBL data ................................ .... 23 III. The eFBL as a powerful tool for effective border clearance processes ................................ ... 23 IV. Receiving data from the eFBL ................................ ................................ ................................ .. 23 A. Implementing the FIATA API ................................ ................................ ................................ 23 B."
+    },
+    {
+      "id": "p2-c2",
+      "page": 2,
+      "title": "FIATA eFBL Practical Guide, page 2",
+      "text": "The eFBL as a powerful tool for effective border clearance processes ................................ ... 23 IV. Receiving data from the eFBL ................................ ................................ ................................ .. 23 A. Implementing the FIATA API ................................ ................................ ................................ 23 B. Copies vs. Originals ................................ ................................ ................................ .............. 23 V. Compatibility with World Customs Organization (WCO) Data Model ................................ ..... 24 Part 6: Software providers – How to offer the eFBL on your platform ................................ ................ 25 I. Becoming an authorised software provider ................................ ................................ ............ 25 II. eFBL data standard ................................ ................................ ................................ .................. 25 III. Standards, format and updates ................................ ................................ ............................... 25 IV. Service reliability ................................ ................................ ................................ ...................... 26 V. Security and misuse safeguards ................................ ................................ ............................... 26 Part 7: Other FIATA digital industry solutions ................................ ................................ ...................... 27 I. Freight Pay ................................ ................................ ................................ ............................... 27 II. FIATA Container Packing App ................................ ................................ ................................ ... 27"
+    },
+    {
+      "id": "p3-c1",
+      "page": 3,
+      "title": "FIATA eFBL Practical Guide, page 3",
+      "text": "FIATA International Federation of Freight Forwarders Associations Rue Kléberg 6 | 1201 Geneva | Switzerland 3 T +41 22 715 45 45 | info@fiata.org | www.fiata.org Part 1: Understanding the eFBL I. Purpose of the Guide Digitalisation is no longer optional for freight forwarders. As key facilitators of international trade, freight forwarders operate at the intersection of commercial, regulatory, and logistical processes and must increasingly meet expectations for speed, t ransparency, security, and compliance. In response to industry demand, and as part of its Digital Strategy, FIATA has developed the electronic FIATA Multimodal Transport Bill of Lading (eFBL). The eFBL provides a trusted, legally robust digital alternative to the paper FIATA Bill of Lading, whi le preserving the central role of freight forwarders as principals in multimodal transport. This guide explains what the eFBL is, how it works, and how it can be used safely and effectively across different legal, regulatory, and operational environments. It is intended to serve as a practical roadmap for: • Freight forwarders issuing or considering the eFBL • FIATA Association Members enabling access at national"
+    },
+    {
+      "id": "p3-c2",
+      "page": 3,
+      "title": "FIATA eFBL Practical Guide, page 3",
+      "text": "and effectively across different legal, regulatory, and operational environments. It is intended to serve as a practical roadmap for: • Freight forwarders issuing or considering the eFBL • FIATA Association Members enabling access at national level • Banks, customs authorities, insurers, and other stakeholders relying on the document • Software providers supporting eFBL issuance and verification II. Introduction to the electronic negotiable FIATA Multimodal Transport Bill of Lading (“eFBL”) A. About the FIATA Multimodal Transport Bill of Lading The eFBL is a breakthrough innovation tailormade for freight forwarders in their daily operations. As the digital equivalent of the well - established negotiable FIATA Multimodal Transport Bill of Lading (FBL), the eFBL represents a significant step towards fully digital, paperless trade. The FBL is the only globally recognised negotiable multimodal trade document. First established in 1968, it is compliant with UCP 600 and UNCTAD/ICC rules, making it eligible for drawing up bank financing. The terms and conditions on the back of the FBL ar e based on the UNCTAD/ICC rules for Multimodal Transport. These standard rules are in line with international"
+    },
+    {
+      "id": "p3-c3",
+      "page": 3,
+      "title": "FIATA eFBL Practical Guide, page 3",
+      "text": "it eligible for drawing up bank financing. The terms and conditions on the back of the FBL ar e based on the UNCTAD/ICC rules for Multimodal Transport. These standard rules are in line with international transport conventions, and are fully compatible with the UCP 600, therefore being acceptable for the international banking community. Designed to meet the needs of modern logistics, the eFBL provides a secure, efficient, and legally recognised alternative to traditional paper - based processes. As international trade moves toward greater digitalisation, the eFBL offers freight forwarders a future - ready tool to enhance operational efficiency and maintain compliance in a digital - first world."
+    },
+    {
+      "id": "p4-c1",
+      "page": 4,
+      "title": "FIATA eFBL Practical Guide, page 4",
+      "text": "FIATA International Federation of Freight Forwarders Associations Rue Kléberg 6 | 1201 Geneva | Switzerland 4 T +41 22 715 45 45 | info@fiata.org | www.fiata.org B. Benefits of using the eFBL A study by McKinsey illustrated the potential impact of electronic bills of lading (master and house bills of lading) on the cost of trade documentation: In addition, t he eFBL brings a range of benefits that enhance both operational efficiency and trust throughout lifecycle of the goods journey and vis - à - vis other supply chain actors and processes. • Secure record of amendments and endorsements: The eFBL is issued through a secure and immutable ledger that ensures the authenticity, integrity, and traceability of the document. The ledger provides a tamper ‑ resistant audit trail of issuance and subsequent amendments, enabling stakeholders to verify the validity and history of the eFBL at any time. • Trusted first - hand information on the cargo, origin, destination and parties: Freight forwarders act as the single trusted partners for importers and exporters, and are closest to the original shipper and"
+    },
+    {
+      "id": "p4-c2",
+      "page": 4,
+      "title": "FIATA eFBL Practical Guide, page 4",
+      "text": "any time. • Trusted first - hand information on the cargo, origin, destination and parties: Freight forwarders act as the single trusted partners for importers and exporters, and are closest to the original shipper and goods information from the start. With the eFBL’s secure tracking system, stakeholders can see first - hand verified information on the entire goods journey at the earliest possible opportunity. • Flexibility to use the eFBL fully digitally or to securely convert to paper: Recognising that parts of the industry still depend on paper - based workflows, the eFBL can be printed at any time without compromising its legal validity. This ensures a practical bridge between traditional and digital processes, making adoption easier acr oss diverse operational environments."
+    },
+    {
+      "id": "p5-c1",
+      "page": 5,
+      "title": "FIATA eFBL Practical Guide, page 5",
+      "text": "FIATA International Federation of Freight Forwarders Associations Rue Kléberg 6 | 1201 Geneva | Switzerland 5 T +41 22 715 45 45 | info@fiata.org | www.fiata.org • Easy verification through the unique QR code: Each eFBL contains a QR code for easy verification, and only validated stakeholders with a FIATA Digital Identity can issue these documents, further strengthening security and trust. • Secured data exchange with trusted third parties through zero - trust architecture: Digitalisation strengthens trust and visibility in the supply chain when built on zero - trust architecture and fair data governance principles. The eFBL solution is based on a highly secure data architecture that ensures robust data protection: all records are encrypted, immutable, and accessible only through verified user identities, with strictly controlled read/write permissions. III. Interoperability and international data standards The FIATA eFBL has been designed as an interoperable, standards - based instrument, rather than a closed or proprietary document. The eFBL data model is mapped against the UN/CEFACT Multimodal Transport Reference Data Model , supporting alignment with broader international initiatives on electronic trade documents and"
+    },
+    {
+      "id": "p5-c2",
+      "page": 5,
+      "title": "FIATA eFBL Practical Guide, page 5",
+      "text": "based instrument, rather than a closed or proprietary document. The eFBL data model is mapped against the UN/CEFACT Multimodal Transport Reference Data Model , supporting alignment with broader international initiatives on electronic trade documents and paperless trade. FIATA has also worked with the World Customs Organization (WCO) on the technical alignment with WCO Data Model , enabling the transmission of eFBL data for customs and regulatory purposes through the FIATA API. This standards - based approach allows eFBL data to be understood, reused, and integrated across systems and jurisdictions, supporting interoperability between freight forwarders, software providers, banks, customs authorities, and other stakeholders."
+    },
+    {
+      "id": "p6-c1",
+      "page": 6,
+      "title": "FIATA eFBL Practical Guide, page 6",
+      "text": "FIATA International Federation of Freight Forwarders Associations Rue Kléberg 6 | 1201 Geneva | Switzerland 6 T +41 22 715 45 45 | info@fiata.org | www.fiata.org The eFBL should therefore be understood not only as a legally effective transport document, but also as a standardised and interoperable data source that can operate across commercial, regulatory, and financial workflows. FIATA continues to collaborate closely with key industry stakeholders to advance interoperability and to allow data to be accessed by key supply chains stakeholders (e.g. airlines, port community systems, banks) for the purposes of efficient supply chain processes and regulatory requirements such as pre - loading advance cargo information regimes . FIATA is a member of the ICC Digital Standards Initiative (DSI) Advisory Board, and is a founding member of the Future of International Trade ( FIT ) Alliance. IV. Legal framework and trust model A. Legal basis of the eFBL The FIATA Electronic Bill of Lading (eFBL) has been developed to ensure full legal equivalence with the traditional paper FIATA Bill of Lading (FBL). It is built upon internationally recognised legal"
+    },
+    {
+      "id": "p6-c2",
+      "page": 6,
+      "title": "FIATA eFBL Practical Guide, page 6",
+      "text": "basis of the eFBL The FIATA Electronic Bill of Lading (eFBL) has been developed to ensure full legal equivalence with the traditional paper FIATA Bill of Lading (FBL). It is built upon internationally recognised legal principles established by the United Nations Commission on International Trade Law (UNCITRAL) Model Law on Electronic Transferable Records (MLETR ) and is fully compatible with the upcoming UNCITRAL Negotiable Cargo Documents (NCD) Convention. Even in jurisdictions that have not yet formally adopted the MLETR or equivalent legislation, the eFBL benefits from a combination of contractual commitments, system design safeguards, and FIATA governance , which together provide a high level of legal assurance and practical enforceability for parties relying on the document. i. Model Law on Electronic Transferrable Records (MLETR) The MLETR provides the global legal foundation that allows electronic transferable records (such as bills of lading) to be treated as functionally equivalent to their paper counterparts. This means that the eFBL is able to perform the same legal functions as a paper FBL , including acting as: • A receipt for the goods; • Evidence"
+    },
+    {
+      "id": "p6-c3",
+      "page": 6,
+      "title": "FIATA eFBL Practical Guide, page 6",
+      "text": "functionally equivalent to their paper counterparts. This means that the eFBL is able to perform the same legal functions as a paper FBL , including acting as: • A receipt for the goods; • Evidence of the contract of carriage; and • A document of title capable of being transferred to another party. Even in jurisdictions that have not yet adopted MLETR principles, the eFBL provides a high level of legal assurance through its alignment with these globally accepted standards and through the contractual commitments incorporated into FIATA’s digital frame work. ii. Negotiable Cargo Documents (NCD) Convention The upcoming NCD Convention will be a landmark moment for electronic negotiable cargo documents such as the eFBL, as it provide s a harmonised international framework for the recognition and use of electronic negotiable cargo documents across all modes of transport among ratifying States . It also removes the historical limitation of negotiability to sea transport, allowing multimodal documents like"
+    },
+    {
+      "id": "p7-c1",
+      "page": 7,
+      "title": "FIATA eFBL Practical Guide, page 7",
+      "text": "FIATA International Federation of Freight Forwarders Associations Rue Kléberg 6 | 1201 Geneva | Switzerland 7 T +41 22 715 45 45 | info@fiata.org | www.fiata.org the eFBL to be recognised and enforceable on a globally harmonised level across all transport modes and jurisdictions. B. How functional equivalence is achieved In the paper environment, the legal effects of a bill of lading depend on possession of the original document. In the digital environment, this concept is functionally replicated through control. The eFBL system ensures that only one authoritative electronic record (the “original”) exists at any given time, and that this record can be securely transferred or surrendered. The legal design of the eFBL supports exclusive control over the original elec tronic record, enabling the exercise and transfer of the rights traditionally associated with negotiable transport documents. This ensures that the eFBL provides the same rights and protections as possession of a physical original bill of lading, including the ability to claim delivery of the goods and to transfer those rights to another party. C. Originals vs copies In the digital"
+    },
+    {
+      "id": "p7-c2",
+      "page": 7,
+      "title": "FIATA eFBL Practical Guide, page 7",
+      "text": "and protections as possession of a physical original bill of lading, including the ability to claim delivery of the goods and to transfer those rights to another party. C. Originals vs copies In the digital environment, the distinction between an original and a copy of the FIATA Electronic Bill of Lading (eFBL) is defined by control and transfer of rights, rather than by the physical possession of paper documents . Each eFBL constitutes a single authoritative electronic record, representing the original bill of lading. This original is securely issued, signed, and maintained within FIATA’s trusted digital ecosystem, ensuring its uniqueness, authenticity, and integrit y at all times. • The original eFBL is the electronic record over which a single party is recognised as having exclusive control for legal purposes . This control confers the legal rights associated with possession of the original negotiable document, in line with the principles of functional equivalence established under frameworks such as the UNCITRAL Model Law on Electronic Transferable Records (ML ETR). Only one person or company can have control of the original at a"
+    },
+    {
+      "id": "p7-c3",
+      "page": 7,
+      "title": "FIATA eFBL Practical Guide, page 7",
+      "text": "line with the principles of functional equivalence established under frameworks such as the UNCITRAL Model Law on Electronic Transferable Records (ML ETR). Only one person or company can have control of the original at a time, and this control can be transferred or surrendered through the relevant software platform, following secure digital processes. • A copy of the eFBL refers to a representation of the original data which is stored on the ledger — such as a PDF or printed version — that may be shared for reference, operational, or compliance purposes. Copies do not confer rights of possession or transfer and cannot be used to claim delivery of goods. The system supporting the eFBL ensures that only one original version can exist at any given time, and that the transfer or surrender of the original is properly recorded through secure digital processes. Only the party with control of the original eFBL can exercise the rights associated with it. Any stakeholder receiving a copy of an eFBL should always verify its authenticity and status using the official FIATA verification portal"
+    },
+    {
+      "id": "p7-c4",
+      "page": 7,
+      "title": "FIATA eFBL Practical Guide, page 7",
+      "text": "party with control of the original eFBL can exercise the rights associated with it. Any stakeholder receiving a copy of an eFBL should always verify its authenticity and status using the official FIATA verification portal before relying on it for commercial or legal purposes."
+    },
+    {
+      "id": "p8-c1",
+      "page": 8,
+      "title": "FIATA eFBL Practical Guide, page 8",
+      "text": "FIATA International Federation of Freight Forwarders Associations Rue Kléberg 6 | 1201 Geneva | Switzerland 8 T +41 22 715 45 45 | info@fiata.org | www.fiata.org D. The FIATA Digital Identity Every eFBL is issued and digitally signed by an authorised FIATA member using a verified FIATA Digital Identity. This ensures that: • The issuer has been authenticated by FIATA through its FIATA member association; • Each eFBL can be traced to a legitimate source; and • The integrity of the document and its contents are protected from unauthorised modification. The FIATA Digital Identity is anchored to a unique and verified issuer identifier. While certain descriptive attributes may be updated over time through authorised amendments, verification and trust mechanisms continue to rely on the underlying identifier, ensuring continuity of issuer identity across the lifecycle of the eFBL. Th e FIATA Digital Identity therefore establishes a trusted network through which authorised freight forwarders operate under a common set of technical and legal standards. It provides end - to - end transparency and accountability, enabling all parties in the supply chain –"
+    },
+    {
+      "id": "p8-c2",
+      "page": 8,
+      "title": "FIATA eFBL Practical Guide, page 8",
+      "text": "trusted network through which authorised freight forwarders operate under a common set of technical and legal standards. It provides end - to - end transparency and accountability, enabling all parties in the supply chain – including banks, carriers, customs, and consignees – to trust the origin and authenticity of each eFBL. E. Security, Integrity and Prevention of Fraud The eFBL has been designed as a secure digital instrument, combining technical, legal and organisational safeguards to protect the integrity of the document, allocate risk clearly, and reduce the risk of fraud. The role of the ledger is to ensure immutability, traceability and auditability of the eFBL record , provid ing the trusted technical foundation upon which legal reliance, verification and interoperability are built . From a technical perspective, eFBLs are issued through authorised software providers using the secure FIATA eFBL API and are registered on an immutable distributed ledger. This creates a tamper - proof record of issuance, amendments and endorsements, enablin g verification of authenticity and detection of unauthorised changes. Security is further reinforced through the FIATA Digital Identity framework."
+    },
+    {
+      "id": "p8-c3",
+      "page": 8,
+      "title": "FIATA eFBL Practical Guide, page 8",
+      "text": "immutable distributed ledger. This creates a tamper - proof record of issuance, amendments and endorsements, enablin g verification of authenticity and detection of unauthorised changes. Security is further reinforced through the FIATA Digital Identity framework. Each eFBL is digitally issued and signed by a verified FIATA member, allowing stakeholders to authenticate th e issuer, verify the origin of the document and rely on the integrity of its contents. Access to eFBL data is governed by a zero - trust architecture, with permissions strictly limited to identified and authorised parties. In addition, the FIATA FBL Terms and Conditions continue to apply to the eFBL, providing a clear and established contractual framework. These terms govern the rights and obligations of the parties, including liability for loss or damage in multimodal trans port, based on the UNCTAD/ICC Rules for Multimodal Transport Documents, and ensure legal continuity between the paper and electronic formats. Trust in the eFBL is further supported by the requirement that issuers maintain mandatory professional liability insurance as a condition for issuing FIATA (e)FBLs. This ensures that the commercial value of"
+    },
+    {
+      "id": "p8-c4",
+      "page": 8,
+      "title": "FIATA eFBL Practical Guide, page 8",
+      "text": "paper and electronic formats. Trust in the eFBL is further supported by the requirement that issuers maintain mandatory professional liability insurance as a condition for issuing FIATA (e)FBLs. This ensures that the commercial value of the document is underpinned not only by technical security, but also by financial responsibility and enforceable liability coverage."
+    },
+    {
+      "id": "p9-c1",
+      "page": 9,
+      "title": "FIATA eFBL Practical Guide, page 9",
+      "text": "FIATA International Federation of Freight Forwarders Associations Rue Kléberg 6 | 1201 Geneva | Switzerland 9 T +41 22 715 45 45 | info@fiata.org | www.fiata.org Taken together, these elements — secure APIs, immutable ledger technology, verified digital identities, controlled access rights, clear contractual terms and mandatory liability insurance — provide a layered security and trust model that strengthens confid ence in the eFBL across the supply chain, including for banks, carriers, customs authorities and other third parties. F. Data governance and responsible data use The eFBL operates within a data governance framework designed to support trusted, secure and responsible data sharing across the supply chain. As a digital document, the eFBL enables the exchange of structured transport data using international standards, while ensuring that data access and use remain controlled, purpose - driven and limited to authorised stakeholders. Data sharing is based on veri fied identities, defined roles and clearly scoped permissions. FIATA has embedded data governance principles into the design of the eFBL ecosystem, including respect for data ownership, clear allocation of responsibilities and a duty of care"
+    },
+    {
+      "id": "p9-c2",
+      "page": 9,
+      "title": "FIATA eFBL Practical Guide, page 9",
+      "text": "fied identities, defined roles and clearly scoped permissions. FIATA has embedded data governance principles into the design of the eFBL ecosystem, including respect for data ownership, clear allocation of responsibilities and a duty of care in relation to data protection, storage and transmission. These principles ar e aligned with FIATA’s broader work on fair and trusted data sharing, including the FIATA – Global Shippers Forum Data Governance Charter . This approach support s interoperability and efficiency while safeguarding sensitive commercial and personal data and maintaining confidence in the eFBL as a trusted global trade document."
+    },
+    {
+      "id": "p10-c1",
+      "page": 10,
+      "title": "FIATA eFBL Practical Guide, page 10",
+      "text": "FIATA International Federation of Freight Forwarders Associations Rue Kléberg 6 | 1201 Geneva | Switzerland 10 T +41 22 715 45 45 | info@fiata.org | www.fiata.org Part 2: FIATA Association Members – How to unlock the eFBL in your territory I. Unlocking access to the eFBL In territories where a FIATA Association Member is present, that Association Member must generally first enter into a licensing agreement with FIATA in order to provide access to official FIATA documents (both paper and digital), such as the electronic FIA TA Multimodal Transport Bill of Lading (eFBL), to freight forwarders in their jurisdiction. This licensing framework is one of the benefits of FIATA Association Membership, enabling Associations to offer the eFBL and other FIATA documents as part of their service portfolio to members. FIATA Association Members play an important role in ensuring the compliance requirements for use of FIATA documents are met. The licensing agreement sets out these responsibilities, which may vary depending on the type of document for which they are licens ed. For the eFBL, this will include ensuring timely verification of"
+    },
+    {
+      "id": "p10-c2",
+      "page": 10,
+      "title": "FIATA eFBL Practical Guide, page 10",
+      "text": "documents are met. The licensing agreement sets out these responsibilities, which may vary depending on the type of document for which they are licens ed. For the eFBL, this will include ensuring timely verification of freight forwarders wishing to issue the eFBL, confirming that they are a legitimate established company within the territory and hold valid liability insurance in line with the eFBL terms and conditions. Compared to paper - based FIATA documents, the digital nature of the eFBL significantly simplifies compliance for Association Members. Verification is performed once at onboarding, records are maintained electronically, and issuance is controlled centrally t hrough FIATA systems, reducing administrative burden while strengthening oversight and auditability. Once FIATA has received the signed Licensing Agreement, FIATA will return the final signed copy to the Association Member, together with an invoice for the associated fixed administrative fees. A complete list of FIATA documents which FIATA Association Members can be licensed for is available here: FIATA Documents and Resources . FIATA Association Members interested in signing a licensing agreement are invited to contact legal@fiata.org . II. R"
+    },
+    {
+      "id": "p10-c3",
+      "page": 10,
+      "title": "FIATA eFBL Practical Guide, page 10",
+      "text": "FIATA documents which FIATA Association Members can be licensed for is available here: FIATA Documents and Resources . FIATA Association Members interested in signing a licensing agreement are invited to contact legal@fiata.org . II. R ole of FIATA Association Members FIATA Association Members contract with FIATA through the FIATA Licensing Agreement and play a key role in safeguarding the integrity of both paper and digital FIATA Documents, including the eFBL. By signing the Licensing Agreement, Association Members fac ilitate access to the eFBL for freight forwarders within their territory and support its use through verification, compliance and awareness - building activities at national level. For digital FIATA Documents, Association Members also contribute to the compliance framework by supporting the verification of freight forwarders requesting a FIATA Digital Identity. This includes confirmation of the freight forwarder’s legal establishment , valid association membership, and possession of appropriate liability insurance in accordance with the FIATA FBL Terms and Conditions."
+    },
+    {
+      "id": "p11-c1",
+      "page": 11,
+      "title": "FIATA eFBL Practical Guide, page 11",
+      "text": "FIATA International Federation of Freight Forwarders Associations Rue Kléberg 6 | 1201 Geneva | Switzerland 11 T +41 22 715 45 45 | info@fiata.org | www.fiata.org This role is essential to maintaining trust, legal certainty and consistency in the use of the eFBL across jurisdictions. In addition, FIATA Association Members contribute to the adoption of digital trade in their territory by: • Building awareness: Introducing the eFBL to their members and promoting its benefits, with the support of FIATA. • Developing adoption: Organising demonstrations, supporting pilot projects, sharing practical use cases, and disseminating FIATA guidance and resources. • Supporting compliance and verification: Assisting FIATA, where relevant, in verifying eligible freight forwarders seeking to use the eFBL, including confirmation of membership status and compliance with applicable requirements. • Fostering usage: Engaging the local user community to encourage active and consistent use of the eFBL. FIATA Association Members are encouraged to partner with FIATA and engage actively to shape the future of global supply chains and secure freight forwarders’ critical role in digital supply chains. Where Association Members support verification and compliance"
+    },
+    {
+      "id": "p11-c2",
+      "page": 11,
+      "title": "FIATA eFBL Practical Guide, page 11",
+      "text": "Members are encouraged to partner with FIATA and engage actively to shape the future of global supply chains and secure freight forwarders’ critical role in digital supply chains. Where Association Members support verification and compliance activities related to the eFBL in their territory, they benefit from a revenue - sharing mechanism under which a portion of the revenue generated from the issuance of the eFBL is shared with them. This revenue - sharing model reflects the centralised nature of the digital eFBL architecture, under which FIATA develops, operates and finances the core services that ensure the eFBL is a trusted, secure and verifiable trade document. These include, among others, the technical infrastructure, digital identity framework, security controls and verification mechanisms that underpin global interoperability and legal certainty. At the same time, the revenue contribution recognises and supports the role of Associ ation Members in safeguarding compliance, maintaining the integrity of FIATA Documents, and providing services, guidance and added value to their own members in connection with the adoption and use of the eFBL."
+    },
+    {
+      "id": "p12-c1",
+      "page": 12,
+      "title": "FIATA eFBL Practical Guide, page 12",
+      "text": "FIATA International Federation of Freight Forwarders Associations Rue Kléberg 6 | 1201 Geneva | Switzerland 12 T +41 22 715 45 45 | info@fiata.org | www.fiata.org Part 3 : Freight forward ing companies – How to use the eFBL I. Eligibility to issue the eFBL The eFBL is issued in the name of the freight forwarder as a legal entity, not an individual user. Issuance is performed using the company’s FIATA Digital Identity, which acts as a secure digital seal. • Individual users do not need to be separately registered with FIATA. • Internal user authorisation is managed within the company and its chosen software solution. • Legal responsibility and liability rest with the issuing legal entity, in line with the FIATA FBL Conditions. In order to issue eFBLs, companies must fulfil the following conditions: 1. Possession of a valid FIATA Digital Identity; 2. P ossession of a valid liability insurance in accordance with the FBL terms and conditions; 3. P ossession of a valid membership with a freight forwarding association that is a valid FIATA member ( except where"
+    },
+    {
+      "id": "p12-c2",
+      "page": 12,
+      "title": "FIATA eFBL Practical Guide, page 12",
+      "text": "ossession of a valid liability insurance in accordance with the FBL terms and conditions; 3. P ossession of a valid membership with a freight forwarding association that is a valid FIATA member ( except where there is no FIATA Association Member in their territory) ; 4. F ulfilment of the requirements of the applicable legislation in its territory , where applicable. Issuance rights for the eFBL are granted on a territorial basis in line with FIATA’s licensing framework. This approach reflects long - standing practice for FIATA Documents and ensures clarity of responsibility, oversight, and compliance at national level. Where a FIATA Association Member is present in a territory, freight forwarders’ eligibility to issue the eFBL is verified with the support of that Association Member. This includes confirmation that the company is legally established, is a valid freight forwarder member of a professional association , and holds appropriate liability insurance in line with the FIATA FBL conditions. Where a FIATA Association Member is not present in a given territory, freight forwarders wishing to issue the eFBL are invited to contact"
+    },
+    {
+      "id": "p12-c3",
+      "page": 12,
+      "title": "FIATA eFBL Practical Guide, page 12",
+      "text": "and holds appropriate liability insurance in line with the FIATA FBL conditions. Where a FIATA Association Member is not present in a given territory, freight forwarders wishing to issue the eFBL are invited to contact legal@fiata.org . For compliance purposes, in such instances the eFBL will only be available to freight forwarders that are direct Individual Members of FIATA. To find out whether there is a FIATA Association Member in a given territory, please review the FIATA Members Directory . Freight forwarders interested in issuing the eFBL and/or becoming a direct Individual Member are invited to contact digital@fiata.org ."
+    },
+    {
+      "id": "p13-c1",
+      "page": 13,
+      "title": "FIATA eFBL Practical Guide, page 13",
+      "text": "FIATA International Federation of Freight Forwarders Associations Rue Kléberg 6 | 1201 Geneva | Switzerland 13 T +41 22 715 45 45 | info@fiata.org | www.fiata.org II. Onboarding and billing process A. Purchasing eFBL credits In most cases, FIATA handle s the onboarding process and billing directly with companies. In certain instances, however, depending on the contractual agreement between FIATA and an authorised software provider, the software provider may directly handle the billing with the freight forwarder user. Companies have the option of purchasing packages of eFBL credits (CHF 0,50 per credit). Each original eFBL generated is charged at 1 eFBL credit and each amendment is charged at 4 eFBL credits. An additional annual administrative fee of CHF 180 will be charged to companies who are not direct members registered with FIATA. FIATA reserves the right to amend this pricing structure and fees at any time. B. O btaining a FIATA Digital Identity Companies wishing to issue the eFBL are invited to reach out to FIATA directly via the eFBL - Freight - Forwarders - Onboarding form . In that"
+    },
+    {
+      "id": "p13-c2",
+      "page": 13,
+      "title": "FIATA eFBL Practical Guide, page 13",
+      "text": "time. B. O btaining a FIATA Digital Identity Companies wishing to issue the eFBL are invited to reach out to FIATA directly via the eFBL - Freight - Forwarders - Onboarding form . In that form, they will be required to provide certain information including: • Company information , including legal name and registered address; • Proof of legal establishment , such as a certificate of incorporation or equivalent document; • FIATA membership status , indicating whether the company is a direct FIATA Individual Member or an indirect member through a FIATA Association Member; • Confirmation of valid liability insurance , in accordance with the FIATA FBL Terms and Conditions (see also below for further information on the Insured eFBL option) ; • Number of eFBL credits the company wishes to purchase; • Name of the software provider the company will work with (see the list of software providers currently authorised to offer the eFBL; if a software provider is not listed, FIATA should be contacted). Where the company indicates that it is a member of a FIATA Association Member"
+    },
+    {
+      "id": "p13-c3",
+      "page": 13,
+      "title": "FIATA eFBL Practical Guide, page 13",
+      "text": "list of software providers currently authorised to offer the eFBL; if a software provider is not listed, FIATA should be contacted). Where the company indicates that it is a member of a FIATA Association Member (see section III ( A )( i ) above) , FIATA will contact the FIATA Association Member for verification and compliance purposes, including to chec k that the company holds valid liability insurance in accordance with the terms and conditions of the eFBL ; Where there is no FIATA Association Member present in a territory and the company is a direct FIATA Individual Member (see section III(A)(ii) above) , FIATA will conduct a verification and compliance check on the company directly . Once the verification and compliance process is completed, a unique FIATA Digital ID is generated for each user. This Digital ID is then shared with the chosen software provider, enabling them to input the necessary eFBL data and generate the document."
+    },
+    {
+      "id": "p14-c1",
+      "page": 14,
+      "title": "FIATA eFBL Practical Guide, page 14",
+      "text": "FIATA International Federation of Freight Forwarders Associations Rue Kléberg 6 | 1201 Geneva | Switzerland 14 T +41 22 715 45 45 | info@fiata.org | www.fiata.org C. Mandatory liability insurance requirement All freight forwarders wishing to issue the eFBL are required to be in possession of valid liability insurance in accordance with the FBL standard terms and conditions (“FBL T&Cs”) . Details of the terms and conditions can be found in Annex I . The liability insurance requirement is key to protecting the integrity and reputation of the eFBL and the issuing freight forwarder, and provides assurance for all parties interacting with the eFBL. Liability insurance serves to protect a freight forwarder up to the limit of their legal liability as principal under the terms of the FBL , in compliance with international convention, for the performance of the entire transport journey from the time the freight forwarder has taken the goods in its charge. Specific provisions are also included in the FBL T&Cs to take account of mandatory national requirements and specific legal regimes for transport modes, well as"
+    },
+    {
+      "id": "p14-c2",
+      "page": 14,
+      "title": "FIATA eFBL Practical Guide, page 14",
+      "text": "the freight forwarder has taken the goods in its charge. Specific provisions are also included in the FBL T&Cs to take account of mandatory national requirements and specific legal regimes for transport modes, well as US law. It should be noted that liability insurance is distinct from cargo insurance, which is usually purchased by the beneficial cargo owner, and forwarders are recommended to advise their clients accordingly. More information on liability insurance for the FBL can be found in FIATA’s dedicated guidance document . D. Insured eFBL vs Standard eFBL i. FIATA Insured eFBL option In developing the insured eFBL, FIATA has worked closely with Willis Towers Watson (WTW), acting as insurance broker, and Tokio Marine HCC (TMHCC), acting as insurer, to design an insurance solution that is compatible with the legal, operational, and digit al characteristics of the FIATA eFBL. This collaboration reflects FIATA’s objective to ensure that all forwarders are able to easily meet the mandatory liability insurance requirement to issue eFBLs . The insured eFBL has been developed using a pilot - oriented country - by -"
+    },
+    {
+      "id": "p14-c3",
+      "page": 14,
+      "title": "FIATA eFBL Practical Guide, page 14",
+      "text": "objective to ensure that all forwarders are able to easily meet the mandatory liability insurance requirement to issue eFBLs . The insured eFBL has been developed using a pilot - oriented country - by - country approach, allowing FIATA, WTW, and TMHCC to: • Test the solution in real operational contexts • Identify jurisdictional and practical considerations • Refine reporting, onboarding, and governance mechanisms ii. Opting for a standard eFBL vs an Insured eFBL When onboarding for eFBL issuance, a freight forwarder is required to select its insurance model at the outset , as part of the initial onboarding and Digital Identity creation process. This choice applies prospectively to all eFBLs issued under that FIATA Digital Identity. A freight forwarder must therefore make a binary choice at onboarding: • Option 1 – Standard eFBL : The forwarder confirms it holds its own liability insurance meeting FIATA requirements."
+    },
+    {
+      "id": "p15-c1",
+      "page": 15,
+      "title": "FIATA eFBL Practical Guide, page 15",
+      "text": "FIATA International Federation of Freight Forwarders Associations Rue Kléberg 6 | 1201 Geneva | Switzerland 15 T +41 22 715 45 45 | info@fiata.org | www.fiata.org • Option 2 – Insured eFBL – *NEW* Phased pilot underway : Where the Insured eFBL is available in its territory, t he forwarder can opt into the insured eFBL solution, whereby insurance coverage is provided through FIATA - arranged insurance mechanisms for all issued eFBLs . A forwarder cannot combine these two options under a single FIATA Digital Identity. Once the insured eFBL option is selected, all eFBLs issued under that Digital Identity will be insured eFBLs. For either option, t he insurance status is recorded directly in the FIATA Digital Identity. iii. Special process for Insured eFBL I nterested companies must complete a specific onboarding process for insured eFBLs . This includes c ompliance checks and sanctions screening, as well as the standard association membership confirmation . Once the onboarding process is complete, the user will receive a Certificate of Insurance bearing its FIATA Digital Identity reference nu m ber. An insured"
+    },
+    {
+      "id": "p15-c2",
+      "page": 15,
+      "title": "FIATA eFBL Practical Guide, page 15",
+      "text": "screening, as well as the standard association membership confirmation . Once the onboarding process is complete, the user will receive a Certificate of Insurance bearing its FIATA Digital Identity reference nu m ber. An insured eFBL is issued through the same technical issuance flow as a standard eFBL, using an authorised software provider and the FIATA API. However , t he dataset of the eFBL indicates that it is an insured eFBL . T he insured status is linked back to the FIATA Digital Identity , and a ll issued insured eFBLs are registered and traceable at FIATA level There is no possibility for a forwarder to , under the same FIATA Digital Identity : • Issue an uninsured eFBL while registered as an insured eFBL user, or • Insure individual eFBLs on an ad - hoc or per - transaction basis III. How to issue the eFBL A. Methods of issuance As the world transitions to fully digital trade processes, flexibility is important to ensure that trade can continue to flow seamlessly even where there may be variances in"
+    },
+    {
+      "id": "p15-c3",
+      "page": 15,
+      "title": "FIATA eFBL Practical Guide, page 15",
+      "text": "issue the eFBL A. Methods of issuance As the world transitions to fully digital trade processes, flexibility is important to ensure that trade can continue to flow seamlessly even where there may be variances in local practices. FIATA has therefore"
+    },
+    {
+      "id": "p16-c1",
+      "page": 16,
+      "title": "FIATA eFBL Practical Guide, page 16",
+      "text": "FIATA International Federation of Freight Forwarders Associations Rue Kléberg 6 | 1201 Geneva | Switzerland 16 T +41 22 715 45 45 | info@fiata.org | www.fiata.org ensured that the eFBL can be used fully digitally, whilst also accommodating situations where paper documentation may be requested. The eFBL can used in the following ways: 1. Fully digitally for the end - to - end transportation chain; 2. Shared as a PDF copy , which gives access to the document’s data in JSON format. In such instance, the PDF copy is only a depiction of the information captured within the ledger and cannot be used as a valid negotiable document . The original eFBL data will be the secure ledger; 3. Securely converted to paper form at any time where necessary. In such instance, the digital record is frozen and becomes invalid to avoid duplication or conflicting versions. This flexibility provides the eFBL with a unique advantage, allowing forwarders the flexibility to generate the document electronically, benefiting from flexibility and speed, and to convert the document to paper in case the banks"
+    },
+    {
+      "id": "p16-c2",
+      "page": 16,
+      "title": "FIATA eFBL Practical Guide, page 16",
+      "text": "versions. This flexibility provides the eFBL with a unique advantage, allowing forwarders the flexibility to generate the document electronically, benefiting from flexibility and speed, and to convert the document to paper in case the banks or other stakeholders require it to be done. B. API verification with FIATA Digital Identity Once the company has entered the relevant information, t he software provider will conduct an API verification on the company through FIATA Secured Documents Service to ascertain, via the company’s FIATA Digital ID, whether it is eligible to validly issue the eFBL. Issuance is specifically linked to the unique FIATA Digital Identity of the specific company, and may not be transferred to, shared among or used by third parties. Following a successful verification check, the information inputted on the eFBL is stored on a secure and immutable ledger and the completed eFBL will be available for issuance through the software provider , which will include: • T he official FIATA FBL number , which will be assigned at the moment of final issuance (i.e. when the eFBL becomes legally effective"
+    },
+    {
+      "id": "p16-c3",
+      "page": 16,
+      "title": "FIATA eFBL Practical Guide, page 16",
+      "text": "for issuance through the software provider , which will include: • T he official FIATA FBL number , which will be assigned at the moment of final issuance (i.e. when the eFBL becomes legally effective and verifiable on the FIATA system ) . • A unique QR code which can be used by stakeholders to verify the authenticity of the eFBL and trac k its journey through the dedicated FIATA portal."
+    },
+    {
+      "id": "p17-c1",
+      "page": 17,
+      "title": "FIATA eFBL Practical Guide, page 17",
+      "text": "FIATA International Federation of Freight Forwarders Associations Rue Kléberg 6 | 1201 Geneva | Switzerland 17 T +41 22 715 45 45 | info@fiata.org | www.fiata.org C. Amendments Any amendment made to an eFBL invalidates the previously stored version on the ledger and results in the creation of a new, updated record under the same document number. This system ensures that only the most recent version of the document remains valid and verifiable. As such, for each amendment, 4 eFBL credits are deducted to account for the process to invalidate and create the requisite records. D. Transfer of title FIATA is not involved in the transfer of title process between platforms . FIATA provides the eFBL standard , API service , FIATA Digital ID , and the storage of the records on the immutable ledger . T he ledger functions as a secure, immutable and auditable registry of eFBL issuance, amendments and endorsements. Transfers of control or title, where applicable, are managed within and between authorised software provider platforms, in accordance with thei r respective processes and the applicable legal"
+    },
+    {
+      "id": "p17-c2",
+      "page": 17,
+      "title": "FIATA eFBL Practical Guide, page 17",
+      "text": "auditable registry of eFBL issuance, amendments and endorsements. Transfers of control or title, where applicable, are managed within and between authorised software provider platforms, in accordance with thei r respective processes and the applicable legal framework. FIATA is working with other key organizations (BIMCO, DCSA, ICC and SWIFT), through the Future International Trade (FIT) Alliance , on solutions to facilitate the interoperability of eBL platforms, allowing eBLs to be transferred from one platform to the other seamlessly."
+    },
+    {
+      "id": "p18-c1",
+      "page": 18,
+      "title": "FIATA eFBL Practical Guide, page 18",
+      "text": "FIATA International Federation of Freight Forwarders Associations Rue Kléberg 6 | 1201 Geneva | Switzerland 18 T +41 22 715 45 45 | info@fiata.org | www.fiata.org IV. Converting from digital to paper The FIATA eFBL is designed to function in both fully digital and hybrid trade environments. While the eFBL is issued and managed electronically, FIATA recognises that certain counterparties, banks, or local practices may still require the use of paper docu ments. For this reason, the eFBL framework allows for conversion from digital to paper as a controlled option , in line with the UNCITRAL Model Law on Electronic Transferrable Records (MLETR) principles. Conversion from digital to paper is one - way and irreversible. Once an eFBL has been converted, it cannot be converted back to digital. At that point, the electronic eFBL record is formally closed, and the paper bill of lading becomes the sole operative doc ument for the remainder of the transaction. This safeguard is essential to avoid duplication, parallel circulation, or uncertainty as to which version of the bill of lading is legally effective. Upon"
+    },
+    {
+      "id": "p18-c2",
+      "page": 18,
+      "title": "FIATA eFBL Practical Guide, page 18",
+      "text": "the sole operative doc ument for the remainder of the transaction. This safeguard is essential to avoid duplication, parallel circulation, or uncertainty as to which version of the bill of lading is legally effective. Upon conversion, the paper eFBL fully replaces the electronic eFBL. All rights, obligations, and legal effects continue exclusively through the paper document, and any subsequent handling, transfer, or presentation must take place in paper form only. From that moment onwards, the transaction proceeds entirely under the traditional paper bill of lading regime. To ensure continuity of rights and legal certainty, the paper version issued upon conversion should also include a complete record of all endorsements and transfers that occurred during the digital phase of the document’s lifecycle. This ensures that the chain of title is preserved without interruption a nd that downstream parties can rely on a single, consolidated document reflecting the full transactional history. Following conversion, the digital eFBL record is locked and closed. No further digital endorsements, amendments, or transfers are possible. The electronic record remains available solely for verification and audit purposes, providing"
+    },
+    {
+      "id": "p18-c3",
+      "page": 18,
+      "title": "FIATA eFBL Practical Guide, page 18",
+      "text": "the full transactional history. Following conversion, the digital eFBL record is locked and closed. No further digital endorsements, amendments, or transfers are possible. The electronic record remains available solely for verification and audit purposes, providing transparency while pre venting any further operational use. Conversion from digital to paper is intended as a transitional or situational tool, not as a routine step. FIATA encourages continued use of the eFBL in fully digital workflows wherever possible. However, where conversion is required, the one - directional n ature of the process ensures legal clarity, operational certainty, and continued trust in the FIATA eFBL framework. V. Practical user guidance A. Negotiable vs Non - Negotiable eFBL The FIATA eFBL is designed as a negotiable transport document and, as a general principle, is issued in negotiable form, reflecting the same legal function as the paper FBL. The negotiable character of the FBL/eFBL is fundamental to its role as a document of title and its ability to support transfer of rights in the goods. In limited and clearly defined circumstances, an eFBL may also exist in"
+    },
+    {
+      "id": "p18-c4",
+      "page": 18,
+      "title": "FIATA eFBL Practical Guide, page 18",
+      "text": "the FBL/eFBL is fundamental to its role as a document of title and its ability to support transfer of rights in the goods. In limited and clearly defined circumstances, an eFBL may also exist in a non - negotiable form, reflecting the same legal distinction recognised in paper documentation. This distinction carries"
+    },
+    {
+      "id": "p19-c1",
+      "page": 19,
+      "title": "FIATA eFBL Practical Guide, page 19",
+      "text": "FIATA International Federation of Freight Forwarders Associations Rue Kléberg 6 | 1201 Geneva | Switzerland 19 T +41 22 715 45 45 | info@fiata.org | www.fiata.org different legal and liability implications, including in relation to the rights of the holder and the allocation of risk under the applicable contractual framework. Accordingly, the negotiable or non - negotiable status of the eFBL must be determined at the inception of the document, as part of the authorised issuance process. This status is clearly indicated on the eFBL and recorded in the underlying dataset. Once issued, the negotiable or non - negotiable nature of an eFBL cannot be changed. The selected status applies for the full life of the document and is essential to preserving legal certainty, consistency with the FIATA FBL Terms and Conditions, and reliance by third parties such as banks, carriers and authorities. Any non - negotiable representation of an eFBL therefore does not independently confer rights of control or transfer. Where a shipment does not require a negotiable document of title, users should consider whether a non - negotiable"
+    },
+    {
+      "id": "p19-c2",
+      "page": 19,
+      "title": "FIATA eFBL Practical Guide, page 19",
+      "text": "- negotiable representation of an eFBL therefore does not independently confer rights of control or transfer. Where a shipment does not require a negotiable document of title, users should consider whether a non - negotiable transport document — such as a FIATA Waybill (FWB) — is more appropriate. FIATA is also in the process of supporting the digitalisation of the FWB for use cases where transferability and title functions are not required. B. eFBL number ing and advance filing requirements The official FIATA eFBL number is generated only at the moment of final issuance, when the eFBL becomes legally effective , is verifiable on FIATA’s system , and the data has been recorded on the immutable ledger . Pre - allocation or reservation of an eFBL number is not possible. Draft or pre - issuance versions do not generate a valid FIATA FBL number. Where authorities require a reference prior to issuance, users may rely on internal shipment or booking references. In addition, the eFBL allows the inclusion of up to five additional identifiers, displayed on the document and embedded"
+    },
+    {
+      "id": "p19-c3",
+      "page": 19,
+      "title": "FIATA eFBL Practical Guide, page 19",
+      "text": "authorities require a reference prior to issuance, users may rely on internal shipment or booking references. In addition, the eFBL allows the inclusion of up to five additional identifiers, displayed on the document and embedded in the dataset. Thes e identifiers can later be reconciled with the official eFBL number once issued. C. Cargo totals: Packages, weight and volume The eFBL data model supports structured cargo line information at line - item level. However, there is currently no dedicated field in the standard rendering for automatically calculated totals (e.g. total number of packages, total gross weight, total volume ). Whether and how totals appear on the visual layout therefore depends on the software implementation and user input, not on the legal standard itself. Where users wish to display totals, they may do so by adding a separate cargo line item reflecting the totals calculated on their side, based on the underlying cargo lines. This approach allows flexibility and accuracy, particularly where different units o f measure, packaging types, or calculation methods are used. Automatic system - rendered totals have not"
+    },
+    {
+      "id": "p19-c4",
+      "page": 19,
+      "title": "FIATA eFBL Practical Guide, page 19",
+      "text": "their side, based on the underlying cargo lines. This approach allows flexibility and accuracy, particularly where different units o f measure, packaging types, or calculation methods are used. Automatic system - rendered totals have not been included at this stage, as consistently calculating and displaying totals across different units, cargo descriptions, and operational practices would be complex. Any future automatic display of totals would re quire a formal update to the standard and the rendering template."
+    },
+    {
+      "id": "p20-c1",
+      "page": 20,
+      "title": "FIATA eFBL Practical Guide, page 20",
+      "text": "FIATA International Federation of Freight Forwarders Associations Rue Kléberg 6 | 1201 Geneva | Switzerland 20 T +41 22 715 45 45 | info@fiata.org | www.fiata.org Users should therefore ensure that cargo details are complete, accurate, and consistent at line - item level, and that any manually added totals correctly reflect the underlying cargo information. D. Freight amount field – * Specific guidance for US shipments * To accommodate different user requirements, FIATA has made the freight amount field on the eFBL optional. However, for shipments involving the United States , the U.S Federal Maritime Commission (FMC) requires that the applicable rate correspond s to what is published in the tariff or agreed under a negotiated rate arrangement ( NRA ) , and carriers must be able to demonstrate this during an audit. For this reason, in practice at least one rated document must exist in the shipment file so that the amount charged can be reconciled with the customer invoice and the applicable tariff or NRA."
+    },
+    {
+      "id": "p21-c1",
+      "page": 21,
+      "title": "FIATA eFBL Practical Guide, page 21",
+      "text": "FIATA International Federation of Freight Forwarders Associations Rue Kléberg 6 | 1201 Geneva | Switzerland 21 T +41 22 715 45 45 | info@fiata.org | www.fiata.org Part 4 : Other supply chain stakeholders – How to verify the eFBL I. The eFBL data as the single source of truth The FIATA eFBL is designed to be relied upon not only by issuing freight forwarders, but also by other supply chain stakeholders, including shippers, consignees, banks, carriers, customs authorities, insurers, and other counterparties. For this reason, the eFBL incorporates built - in verification mechanisms that allow any third party to confirm the authenticity and status of the document by referring to the eFBL data without needing to be an eFBL user or to access proprietary systems. II. Verifying the eFBL Each secured digital FBL is registered with a unique hash on a private ledger (powered by FIATA’s partner Trakk from Komgo ). The immutable eFBL audit trail is accessible to all stakeholders interacting with the pdf, which is a structured representation of the original data , by scanning the QR code"
+    },
+    {
+      "id": "p21-c2",
+      "page": 21,
+      "title": "FIATA eFBL Practical Guide, page 21",
+      "text": "FIATA’s partner Trakk from Komgo ). The immutable eFBL audit trail is accessible to all stakeholders interacting with the pdf, which is a structured representation of the original data , by scanning the QR code or dragging/uploading the pdf on FIATA’s dedicated verification webpage . This verification mechanism provides confidence in the authenticity of the eFBL data and in the issuer . It is intentionally designed to be neutral, accessible, and technology - agnostic, supporting reliance by banks, customs authorities, and other third parties. The document audit trail certifies: • The validity of the eFBL data : the date and time when the eFBL was registered by FIATA is displayed. • The identity of its issuer : the company name, address and business registration number are displayed. Stakeholders can also see the name of the FIATA Association Member that the issuing company is a member of and a confirmation that, at the time of the document registration, the issuing company fulfilled all conditions as specified in the terms and conditions of the FBL. • The integrity of its content: a"
+    },
+    {
+      "id": "p21-c3",
+      "page": 21,
+      "title": "FIATA eFBL Practical Guide, page 21",
+      "text": "of and a confirmation that, at the time of the document registration, the issuing company fulfilled all conditions as specified in the terms and conditions of the FBL. • The integrity of its content: a screenshot of the pdf representation (as when it was registered by FIATA) is accessible to all stakeholders who can verify the integrity of the eFBL data they have received and ensure it hasn’t been modified."
+    },
+    {
+      "id": "p22-c1",
+      "page": 22,
+      "title": "FIATA eFBL Practical Guide, page 22",
+      "text": "FIATA International Federation of Freight Forwarders Associations Rue Kléberg 6 | 1201 Geneva | Switzerland 22 T +41 22 715 45 45 | info@fiata.org | www.fiata.org If the verification result reveals any discrepancies, or if the eFBL cannot be located, this indicates that the PDF presented does not correspond to the original eFBL data recorded on the immutable ledger. This may occur, for example, where the eFBL has be en amended and the PDF does not reflect the most recent version of the document, or where the PDF does not accurately represent the authoritative eFBL record. In such cases, stakeholders are encouraged to contact the issuing freight forwarder directly for clarification. Where questions arise in relation to technical matters, including the API or the verification mechanism, stakeholders may contact their software provider, which can escalate the issue to FIATA where appropriate. This verification mechanism forms part of FIATA’s broader efforts to enhance trust, transparency and security in digital trade documentation, enabling stakeholders to rely on the integrity, authenticity and currency of eFBL data."
+    },
+    {
+      "id": "p23-c1",
+      "page": 23,
+      "title": "FIATA eFBL Practical Guide, page 23",
+      "text": "FIATA International Federation of Freight Forwarders Associations Rue Kléberg 6 | 1201 Geneva | Switzerland 23 T +41 22 715 45 45 | info@fiata.org | www.fiata.org Part 5 : Customs and regulatory authorities – How to leverage the eFBL data III. The eFBL as a powerful tool for effective border clearance processes Freight forwarders as “Architects of Transport” oversee the entire logistics process and are closest to the original shipper and goods information from the start . T he eFBL, which is issued by forwarders at the start of the goods journey , contains vital original house - level information on the goods which can be valuable for customs authorities as part of advance cargo information programmes and other regulatory requirements. The eFBL can therefore be a powerful trade facilitation and risk management tool that facilitates the streamlined verification and processing of cargo through trusted and verifiable data for efficient and effective customs clearance . This has already been recognised by certain customs authorities which have explicitly recognised the eFBL as part of their processes. IV. Receiving data from the"
+    },
+    {
+      "id": "p23-c2",
+      "page": 23,
+      "title": "FIATA eFBL Practical Guide, page 23",
+      "text": "and verifiable data for efficient and effective customs clearance . This has already been recognised by certain customs authorities which have explicitly recognised the eFBL as part of their processes. IV. Receiving data from the eFBL A. Implementing the FIATA API Through the FIATA API, customs authorities can receive data from the eFBL in a read - only mode from the moment that the forwarder issues the eFBL. Receiving crucial goods information from the eFBL is simple and secure through the FIATA API, and does not require any complicated or costly systems to implement! B. Copies vs. Originals Physical representations of the eFBL record may be printed at any time, without losing its legal validity. This capability supports transitional workflows where paper is still required by certain parties. Data received as a JSON file Customs calls the open API Customs calculates the record hash to authenticate Customs receives eFBL"
+    },
+    {
+      "id": "p24-c1",
+      "page": 24,
+      "title": "FIATA eFBL Practical Guide, page 24",
+      "text": "FIATA International Federation of Freight Forwarders Associations Rue Kléberg 6 | 1201 Geneva | Switzerland 24 T +41 22 715 45 45 | info@fiata.org | www.fiata.org However, t he electronic version remains the legally authoritative record. Printed copies can be verified via the QR code, which links to the immutable FIATA record. V. Compatibility with World Customs Organization (WCO) Data Model FIATA has also worked with the World Customs Organization (WCO) on the technical alignment with WCO Data Model , enabling the transmission of eFBL data for customs and regulatory purposes through the FIATA API. Customs authorities interested in piloting the process are invited to get in touch with FIATA at digital@fiata.org ."
+    },
+    {
+      "id": "p25-c1",
+      "page": 25,
+      "title": "FIATA eFBL Practical Guide, page 25",
+      "text": "FIATA International Federation of Freight Forwarders Associations Rue Kléberg 6 | 1201 Geneva | Switzerland 25 T +41 22 715 45 45 | info@fiata.org | www.fiata.org Part 6 : S oftware providers – How to offer the eFBL on your platform I. Becoming an authorised software provider Software providers act as technical implementers of the eFBL API. They provide the user interface and access to the eFBL, ensure the secure transmission and interoperability of eFBL data between authorised platforms, and support related technical services in accordance with FIATA requirements. While the eFBL data standard itself is open - source, the ability to issue legally valid eFBLs — and the authoritative records relating to their issuance — is strictly controlled by FIATA. Only freight forwarders that have been verified by FIATA and that issue e FBLs through authorised software providers using a valid FIATA Digital Identity are permitted to generate eFBLs. FIATA provides an API service enabling authorised software providers to offer the eFBL in accordance with the eFBL data standard. FIATA also operates the associated issuer compliance framework in line"
+    },
+    {
+      "id": "p25-c2",
+      "page": 25,
+      "title": "FIATA eFBL Practical Guide, page 25",
+      "text": "are permitted to generate eFBLs. FIATA provides an API service enabling authorised software providers to offer the eFBL in accordance with the eFBL data standard. FIATA also operates the associated issuer compliance framework in line with the eFBL Terms and Conditions and maintains an imm utable audit trail for all issued eFBLs, ensuring integrity, traceability and trust in the document. Software providers interested in becoming authorised to offer the eFBL on their platform are invited to contact FIATA at digital@fiata.org . FIATA will then be in touch to provide a software provider agreement, which must be signed in order to receive the credentials to access the FIATA API service. II. eFBL data standard The eFBL data standard is based on the UN/CEFACT Multimodal Transport Reference Data Model to facilitate interoperability with other existing standards and all actors of the supply chain. FIATA has made the eFBL data standard available as an open - source model for the whole industry. The eFBL standard and technical specifications can be accessed on FIATA’s GitHub repository . III. Standards, format and updates Authorised software"
+    },
+    {
+      "id": "p25-c3",
+      "page": 25,
+      "title": "FIATA eFBL Practical Guide, page 25",
+      "text": "eFBL data standard available as an open - source model for the whole industry. The eFBL standard and technical specifications can be accessed on FIATA’s GitHub repository . III. Standards, format and updates Authorised software providers are required to strictly adhere to the FIATA eFBL data standard and format . Software providers may not alter the legal content, structure, or identifiers of the eFBL. Where FIATA updates the eFBL data standard or technical requirements, software providers are required to implement such updates within the defined transition period communicated by FIATA."
+    },
+    {
+      "id": "p26-c1",
+      "page": 26,
+      "title": "FIATA eFBL Practical Guide, page 26",
+      "text": "FIATA International Federation of Freight Forwarders Associations Rue Kléberg 6 | 1201 Geneva | Switzerland 26 T +41 22 715 45 45 | info@fiata.org | www.fiata.org IV. Service reliability FIATA maintains a Service Level Agreement (SLA) with all authorised eFBL software providers. These SLAs are intended to ensure that technical issues affecting the issuance, management, verification, or accessibility of eFBLs are addressed appropriately and within agreed timeframes, and that software providers meet defined standards of service and reliability. From a data integrity and resilience perspective, all eFBL data is backed up automatically. This ensures continuity, auditability, and protection against data loss, supporting confidence among freight forwarders, banks, authorities, insurers, and other sta keholders relying on the eFBL. These technical governance arrangements form part of FIATA’s broader approach to ensuring that the eFBL operates as a trusted, enterprise ‑ grade digital document, suitable for use across commercial, regulatory, and financial workflows. V. Security and misuse safeguards Software providers are required to implement appropriate security, confidentiality, and data - protection measures to safeguard the integrity of eFBLs and prevent unauthorised access or"
+    },
+    {
+      "id": "p26-c2",
+      "page": 26,
+      "title": "FIATA eFBL Practical Guide, page 26",
+      "text": "commercial, regulatory, and financial workflows. V. Security and misuse safeguards Software providers are required to implement appropriate security, confidentiality, and data - protection measures to safeguard the integrity of eFBLs and prevent unauthorised access or misuse. Issuance rights may be suspended or withdrawn where these requirements are not met."
+    },
+    {
+      "id": "p27-c1",
+      "page": 27,
+      "title": "FIATA eFBL Practical Guide, page 27",
+      "text": "FIATA International Federation of Freight Forwarders Associations Rue Kléberg 6 | 1201 Geneva | Switzerland 27 T +41 22 715 45 45 | info@fiata.org | www.fiata.org Part 7 : Other FIATA digital industry solutions I. Freight Pay Freight - Pay is a dedicated digital payment platform developed exclusively for FIATA members, enabling fast, secure, and cost - effective financial transactions across the globe. Built with the specific needs of freight forwarders in mind, the platform simpli fies the process of sending and receiving payments, while significantly reducing transaction costs. With Freight - Pay, members can execute transactions within seconds, with instant notifications sent to both the payer and the recipient, helping to streamline cash flow and improve operational efficiency. One of the key advantages is the low transaction fee of just USD 2 for member - to - member payments — regardless of the transaction amount. The platform also offers full transparency and control, providing users with a comprehensive overview of their payment history. All transaction data can be easily exported as an Excel file to support accurate reconciliation and"
+    },
+    {
+      "id": "p27-c2",
+      "page": 27,
+      "title": "FIATA eFBL Practical Guide, page 27",
+      "text": "amount. The platform also offers full transparency and control, providing users with a comprehensive overview of their payment history. All transaction data can be easily exported as an Excel file to support accurate reconciliation and financial reporting. In addition to member transactions, Freight - Pay can be used to pay FIATA membership fees at the same low rate of USD 2 per transaction. Freight - Pay is also powered by PayCargo, and therefore also supports payments to US vendors via PayCargo . For detailed instructions on how to use the platform, please refer to the Freight - Pay User guide and explore the Freight - Pay interactive demo . II. FIATA Container Packing App The FIATA Container Packing App, developed by the FIATA Advisory Body on Information Technology (ABIT), is a practical digital tool designed to support freight forwarders and logistics professionals in applying global best practices for container packing. Available on both iOS and Android, the app enhances the efficiency, accuracy, and safety of cargo loading — whether into containers, trucks, or other modes of transport. In addition to"
+    },
+    {
+      "id": "p27-c3",
+      "page": 27,
+      "title": "FIATA eFBL Practical Guide, page 27",
+      "text": "best practices for container packing. Available on both iOS and Android, the app enhances the efficiency, accuracy, and safety of cargo loading — whether into containers, trucks, or other modes of transport. In addition to packing guidance, the app includes features for documenting and verifying the condition of goods at the time of loading. This provides a reliable digital record that supports dispute resolution and strengthens accountability across the suppl y chain. The FIATA Container Packing App is a simple yet powerful tool that brings consistency, transparency, and professionalism to one of the most critical stages in the logistics process. FIATA invites all freight forwarders, shippers, and logistics stakeholders to explore and download the app today via the Google Play Store and Apple App Store ."
+    }
+  ]
+}
