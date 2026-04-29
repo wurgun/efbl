@@ -1,8 +1,8 @@
-# UTIKAD eFBL Bilgilendirme Mikrositesi
+# TLE Software eFBL Entegrasyonlu TMS Mikrositesi
 
-Bu repo, UTIKAD uyelerini elektronik FIATA Multimodal Bill of Lading (eFBL) hakkinda bilgilendirmek icin hazirlanan statik mikro siteyi icerir.
+Bu repo, TLE Software'in eFBL entegrasyonlu TMS cozumunu tanitmak ve eFBL arayisinda olan lojistik sirketlerinden lead toplamak icin hazirlanan mikro siteyi icerir.
 
-Site; FIATA eFBL Practical Guide temel alinarak, uyeler icin daha sade ve uygulanabilir bir bilgilendirme akisi olarak duzenlenmistir.
+Site; FIATA eFBL Practical Guide temel alinarak, karar vericiler ve operasyon ekipleri icin sade bir bilgilendirme akisi sunar. Konumlandirma, TLE Software'in eFBL entegrasyonunu tamamlayan dunyadaki 8. sirket olmasi ve eFBL destekli TMS yetkinligi uzerine kuruludur.
 
 ## Canli Site
 
@@ -15,11 +15,12 @@ https://wurgun.github.io/efbl/
 ## Icerik
 
 - eFBL nedir?
-- Uyeler icin operasyonel faydalar
+- eFBL entegrasyonlu TMS deger onerisi
+- Lojistik sirketleri icin operasyonel faydalar
 - Hukuki esdegerlik ve kontrol modeli
 - FIATA Digital Identity sureci
-- eFBL kullanim yol haritasi
-- Paydaslara gore bilgilendirme
+- eFBL gecis yol haritasi
+- TMS, operasyon, yonetim ve IT ekiplerine gore bilgilendirme
 - Hazirlik kontrol listesi
 - Dogrulama ve sigorta modeli
 - Sik sorulan sorular
@@ -82,5 +83,5 @@ Birkac dakika icinde site yayina alinir.
 
 ## Kaynaklar
 
-- UTIKAD: https://www.utikad.org.tr/
+- TLE Software: https://tlesoftware.com/
 - FIATA eFBL Practical Guide: https://fiata.cdn.prismic.io/fiata/acu4XJGXnQHGZIQ0_eFBLguide_final.pdf

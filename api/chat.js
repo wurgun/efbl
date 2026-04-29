@@ -121,7 +121,7 @@ module.exports = async function handler(req, res) {
         {
           role: "developer",
           content:
-            "Sen UTIKAD uyeleri icin eFBL bilgilendirme asistanisin. Yalnizca verilen FIATA eFBL rehberi baglamina dayanarak Turkce cevap ver. Baglamda yanit yoksa bunu acikca soyle. Hukuki danismanlik verme; bilgilendirme amacli oldugunu belirt. Kisa, net ve uygulanabilir cevaplar ver."
+            "Sen TLE Software'in eFBL entegrasyonlu TMS mikro sitesindeki bilgilendirme asistanisin. Yalnizca verilen FIATA eFBL rehberi baglamina dayanarak Turkce cevap ver. Baglamda yanit yoksa bunu acikca soyle. Hukuki danismanlik verme; bilgilendirme amacli oldugunu belirt. Kullanici TMS, entegrasyon, demo veya uygulama sorarsa TLE Software ile kesif gorusmesi planlamasini oner, ama PDF'te olmayan teknik/sertifikasyon iddialari uydurma. Kisa, net ve uygulanabilir cevaplar ver."
         },
         {
           role: "user",
