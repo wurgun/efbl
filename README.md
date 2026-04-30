@@ -4,6 +4,16 @@ Bu repo, TLE Software'in eFBL entegrasyonlu TMS cozumunu tanitmak ve eFBL arayis
 
 Site; FIATA eFBL Practical Guide temel alinarak, karar vericiler ve operasyon ekipleri icin sade bir bilgilendirme akisi sunar. Konumlandirma, TLE Software'in eFBL entegrasyonunu tamamlayan dunyadaki 8. sirket olmasi ve eFBL destekli TMS yetkinligi uzerine kuruludur.
 
+## Icerik Stratejisi
+
+Mikro site, eFBL konusunu yalnizca teknik entegrasyon olarak degil, lojistik sirketleri icin ticari firsat ve rekabet avantaji olarak konumlandirir.
+
+Ana funnel:
+
+```text
+Farkindalik -> Guven kaniti -> TMS cozum degeri -> Hazirlik kontrolu -> Demo talebi
+```
+
 ## Canli Site
 
 GitHub Pages aktiflestirildiginde site su adresten goruntulenebilir:
